@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 
 // Configuración de CORS
 const corsOptions = {
-    origin: ['http://localhost:5173', 'http://localhost:5174'], // Agrega todos los orígenes que necesites
+    origin: ['http://localhost:5174'], // Agrega todos los orígenes que necesites
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     allowedHeaders: 'Origin, X-Requested-With, Content-Type, Accept',
     credentials: true, // Permite enviar cookies o datos de autenticación
